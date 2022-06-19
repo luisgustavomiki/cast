@@ -1,0 +1,11 @@
+about: 
+  name: Status
+  note: divisions of statuses a task might be defined at a given time
+frame:
+  - open
+  - closed
+specs: 
+  open:
+    note: work is actionable at the given moment
+  closed: 
+    note: work was previously actionable but is not at the given moment

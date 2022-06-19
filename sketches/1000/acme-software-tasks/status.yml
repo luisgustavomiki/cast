@@ -1,0 +1,29 @@
+about: 
+  name: Issue Status
+  note: divisions of statuses a raised issue might be defined at a given time
+frame:
+  - refinement-backlog
+  - product-backlog
+  - sprint-backlog
+  - development
+  - peer-review
+  - functional-testing
+  - product-increment
+  - release-plan
+specs:
+  refinement-backlog:
+    note: business person has defined functional specifications and item is ready to be studied by development team
+  product-backlog:
+    note: development team has understood and accepted the issue
+  sprint-backlog:
+    note: development team has scoped that item for a specific print
+  development:
+    note: development team member is working on item
+  peer-review:
+    note: work by development team member is done and up for review from a peer
+  functional-testing:
+    note: quality assurance is ready to be done
+  product-increment:
+    note: work on issue has been successful within sprint
+  release-plan:
+    note: issue is ready to be released

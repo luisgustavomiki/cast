@@ -1,0 +1,5 @@
+about: 
+  name: Global Software Tasks
+  note: concretization of global tasks through software tasks
+frame: 
+  - story

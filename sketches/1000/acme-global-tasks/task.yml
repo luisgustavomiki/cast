@@ -1,0 +1,23 @@
+about: 
+  name: Task
+  note: distinct piece of work actionable by a person
+frame:
+  - index
+  - type
+  - status
+  - summary
+  - person
+specs:
+  index:
+    note: number that identifies a single task within a given context
+    is-value-of: natural
+  type:
+    is-enumerator-of: type
+  status:
+    is-enumerator-of: status
+  summary: 
+    note: brief description of work through intended result or necessary steps
+    is-value-of: paragraph
+  person:
+    note: person that is responsible for an actionable task at a given moment
+    is-value-of: person

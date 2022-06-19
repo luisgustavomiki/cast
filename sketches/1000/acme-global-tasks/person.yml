@@ -1,0 +1,9 @@
+about: 
+  name: Person
+  note: a person that will work on a task
+frame:
+  - name
+specs:
+  index:
+    note: a name that identifies a person 
+    is-value-of: phrase

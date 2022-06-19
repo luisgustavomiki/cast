@@ -1,0 +1,7 @@
+about: 
+  name: Tasks
+  note: representation of work to be done by employees in form of tasks
+frame: 
+  - task
+  - status
+  - type

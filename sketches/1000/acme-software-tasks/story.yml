@@ -1,0 +1,20 @@
+about: 
+  name: Story
+  note: behavior of a system to me implemented
+frame:
+  - index
+  - status
+  - user-story
+  - acceptance-criteria
+  - assignee
+specs:
+  index: 
+    is-value-of: natural
+  status:
+    is-enumerator-of: issue-status
+  user-story: 
+    is-value-of: phrase
+  acceptance-criteria: 
+    is-value-of: paragraph
+  assignee:
+    is-value-of: person

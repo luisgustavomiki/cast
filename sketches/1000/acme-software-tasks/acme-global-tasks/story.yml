@@ -1,0 +1,19 @@
+about: 
+  note: dictionary between tasks.task and issue.story
+frame:
+  - index
+  - type
+  - status
+  - summary
+  - person
+specs:
+  index:
+    is-same-as: index 
+  type: 
+    is: request
+  status:
+    is-enumerator-of: status
+  summary:
+    is-void: 
+  person:
+    is-same-as: assignee

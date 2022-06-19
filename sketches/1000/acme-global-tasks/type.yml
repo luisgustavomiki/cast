@@ -1,0 +1,11 @@
+about: 
+  name: Type
+  note: division of types a task might be defined in its inception
+frame:
+  - incident
+  - request
+specs:
+  incident:
+    note: object of task was previously fulfilled and warrants work for restoration
+  request:
+    note: object of task is novel or an actor warrants incrementation

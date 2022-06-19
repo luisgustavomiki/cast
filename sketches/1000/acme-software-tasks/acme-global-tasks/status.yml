@@ -1,0 +1,12 @@
+about: 
+  note: dictionary between tasks.status and issue.status
+frame:
+  - open
+  - closed
+rules:
+  open: 
+    is-enumerator-of: issue.status
+    except: release-plan
+  closed:
+    is-enumerator-of: issue.status
+    include: release-plan

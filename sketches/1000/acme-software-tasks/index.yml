@@ -1,0 +1,5 @@
+about: 
+  name: Software Tasks
+  note: representation of work to be done by a software development squad
+frame: 
+  - story
