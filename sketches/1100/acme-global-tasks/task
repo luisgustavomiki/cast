@@ -1,0 +1,8 @@
+(symbol
+  "a person that will work on a task"
+  (has 
+    (:index "number that identifies a single task within a given context" (natural))
+    (:type () (enum (type)))
+    (:status () (enum (status)))
+    (:summary "brief description of work through intended result or necessary steps" (paragraph))
+    (:person "actor responsible for task at the given time" (person))))

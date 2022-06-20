@@ -1,0 +1,9 @@
+(symbol
+  "behavior of a system to me implemented"
+  (with story)
+  (has 
+    :index
+    (:type (global :type :request))
+    (:status (inherit (global :type) status-status))
+    (:summary :user-story)
+    :person))

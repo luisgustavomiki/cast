@@ -1,0 +1,19 @@
+(symbol
+  "divisions of statuses a raised issue might be defined at a given time"
+  (has 
+    (:refinement-backlog
+      "business person has defined functional specifications and item is ready to be studied by development team")
+    (:product-backlog
+      "development team has understood and accepted the issue")
+    (:sprint-backlog
+      "development team has scoped that item for a specific print")
+    (:development
+      "development team member is working on item")
+    (:peer-review
+      "work by development team member is done and up for review from a peer")
+    (:functional-testing
+      "quality assurance is ready to be done")
+    (:product-increment
+      "work on issue has been successful within sprint")
+    (:release-plan
+      "issue is ready to be released")))

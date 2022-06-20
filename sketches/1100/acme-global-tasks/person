@@ -1,0 +1,4 @@
+(symbol
+  "a person that will work on a task"
+  (has 
+    (:name "object of task was previously fulfilled and warrants work for restoration" (phrase))))

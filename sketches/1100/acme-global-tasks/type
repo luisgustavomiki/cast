@@ -1,0 +1,5 @@
+(symbol
+  "division of types a task might be defined in its inception"
+  (has 
+    (:incident "previously fulfilled effect has failed and warrants work for restoration") 
+    (:request "novel or incremented effect warranted")))

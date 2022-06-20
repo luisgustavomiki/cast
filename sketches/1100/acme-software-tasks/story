@@ -1,0 +1,8 @@
+(symbol
+  "behavior of a system to me implemented"
+  (has 
+    (:index natural)
+    (:status (enum status))
+    (:user-story phrase)
+    (:acceptance-criteria paragraph)
+    (:assignee person)))

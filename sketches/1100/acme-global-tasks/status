@@ -1,0 +1,5 @@
+(symbol
+  "representation of work to be done by employees in form of tasks"
+  (has 
+    (:open "actionable at the given moment") 
+    (:closed "previously actionable at the given moment")))

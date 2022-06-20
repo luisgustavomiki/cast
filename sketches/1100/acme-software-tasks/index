@@ -1,0 +1,7 @@
+(context
+  "representation of work to be done by a software development squad"
+  (with
+    (:global (fetch :acme :task (version "1.0.0") (only :task :type))))
+  (has 
+    (:story (story (inherit (global :task) story-task)))
+    (:type (type (inherit (global :type) type-type)))))

@@ -1,0 +1,6 @@
+(symbol
+  "divisions of statuses a raised issue might be defined at a given time"
+  (with (global :status))
+  (has
+    (:open (status (except :release-plan)))
+    (:closed (status :release-plan))))
